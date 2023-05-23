@@ -17,14 +17,22 @@ tags:
 
 ### 1、 代码
 
-进入[我的仓库](https://github.com/wumeilian/wumeilian.github.io),点击右上角fork，将我的仓库拉到你自己的账号下; 再点击settings进入设置仓库名 ![fork](/img/blog/blog-build-3.png)
-
-修改仓库名，仓库命名格式必须按照 `<username>.github.io`格式，将`username`替换成你自己的github账户名；![修改仓库名称](/img/blog/blog-build-4.png)
-
-修改完成后，往下拉到Github Pages的位置就能看到修改过后的地址(这里设置了自己的域名，未设置时地址`http://wumeilian.github.io`)
-![pages](/img/blog/blog-build-5.png)
-
-访问该地址就可以看到页面了，如果出现页面打不开，请检查仓库名是否和用户名一致。
-![blog](/img/blog/blog-build-6.png)
-
+```javascript
+import cv2,os
+# path = '/tmp'
+# retval = os.getcwd()
+# print(f'当前工作目录为{retval}')
+# Load the cascade
+face_cascade = cv2.CascadeClassifier('face_detector.xml')
+# img
+img = cv2.imread('test.png')
+# 检测人脸
+face = face_cascade.detectMultiScale(img, 1.1, 4)
+# Draw rectangle around the faces
+for (x, y, w, h) in face:
+	cv2.rectangle(img, (x, y), (x+w, y+h), (255, 0, 0), 2)
+# Exporttheresult
+cv2.imwrite("face_detected.png", img)
+print('Successfully saved')
+```
 ### 2、拉取项目，更改配置
