@@ -38,6 +38,5 @@ print('Successfully saved')
 ```
 ### 2、面部检测模型
 创建文本文档，复制下列链接中的面部检测模型代码，另存为“face_detector.xml”
-```
 https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
-```
+
