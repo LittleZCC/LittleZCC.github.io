@@ -11,7 +11,7 @@ tags:
 ---
 
 ## Python中的简单人脸检测
-利用markdown教程（https://www.runoob.com/markdown/md-code.html）试作第一篇博客
+利用markdown教程（<[https://www.runoob.com](https://www.runoob.com/markdown/md-link.html)>）试作第一篇博客
 
 ## 正文
 
