@@ -1,12 +1,12 @@
 # theme: jekyll-theme-cayman
 
 # Site settings
-title: Wml Blog
-SEOTitle: 吴美莲的博客 | Wml Blog
+title: Zcc Blog
+SEOTitle: zcc的博客 | Zcc Blog
 header-img: img/home-bg.png
 email: 1054527951@qq.com
-description: "前端开发 | 吴美莲，Web & Front-end Engineer | wumeilian的个人博客呀"
-keyword: "wumeilian, wml, wuml, 前端, Wml Blog, 博客，Web, Css, Javascript"
+description: zcc的个人博客呀"
+keyword: "python"
 url: "https://meilianwu.com/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
