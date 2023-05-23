@@ -19,6 +19,7 @@ tags:
 
 ```javascript
 import cv2,os
+# 查看当前路径
 # path = '/tmp'
 # retval = os.getcwd()
 # print(f'当前工作目录为{retval}')
